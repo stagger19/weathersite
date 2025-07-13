@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(to top, #cceeff, #ffffff);
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+input, button {
+  padding: 10px;
+  margin: 5px;
+}
+section {
+  margin-top: 20px;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
