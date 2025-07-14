@@ -2,27 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Weather</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Tomorrow.io Weather</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="container">
-    <h1>🌤️ My Weather</h1>
-    <div>
-      <input type="text" id="cityInput" placeholder="Enter city" />
-      <button onclick="getWeather()">Get Weather</button>
-    </div>
+  <h1>🌦️ Weather from Tomorrow.io</h1>
+  <input type="text" id="city" placeholder="Enter city" />
+  <button onclick="getWeather()">Get Weather</button>
 
-    <section id="currentWeather"></section>
-    <section id="forecast"></section>
-    <section id="alerts"></section>
-
-    <h2>📅 Weather History</h2>
-    <input type="date" id="historyDate" max="" />
-    <button onclick="getHistory()">Get History</button>
-    <section id="historyWeather"></section>
-  </div>
+  <div id="weather-result"></div>
 
   <script src="script.js"></script>
 </body>
