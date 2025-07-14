@@ -11,9 +11,9 @@ async function getWeather() {
     const weather = data.data.values;
     const result = `
       <h2>📍 ${city}</h2>
-      <p>🌡️ Temperature: ${weather.temperature}°C</p>
+      <p>🌡️ Temperature: ${weather.temperature}°F</p>
       <p>💧 Humidity: ${weather.humidity}%</p>
-      <p>💨 Wind Speed: ${weather.windSpeed} m/s</p>
+      <p>💨 Wind Speed: ${weather.windSpeed} m/P/H</p>
     `;
     document.getElementById("weather-result").innerHTML = result;
   } catch (err) {
