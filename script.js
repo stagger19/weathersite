@@ -2,7 +2,7 @@ const apiKey = "i0SKXjvkkjWYoDDNvoaQwCgsmU8ZDtq7"; // Replace with your real API
 
 async function getWeather() {
   const city = document.getElementById("city").value;
-  const url = `https://api.tomorrow.io/v4/weather/realtime?location=${encodeURIComponent(city)}&apikey=${apiKey}`;
+  const url = `https://api.tomorrow.io/v4/weather/realtime?location=${encodeURIComponent(city)}&apikey=${apiKey}&units=imperial`;
 
   try {
     const res = await fetch(url);
